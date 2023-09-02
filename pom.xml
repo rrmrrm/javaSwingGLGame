@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <properties> 
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties> 
+  <groupId>group1</groupId>     
+  <artifactId>Game</artifactId>
+  <version>0.1</version>
+  <name>Game</name>
+  <packaging>jar</packaging>
+
+  <repositories></repositories>
+
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/org.lwjglx/lwjgl3-awt -->
+    <dependency>
+        <groupId>org.lwjglx</groupId>
+        <artifactId>lwjgl3-awt</artifactId>
+        <version>0.1.8</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.lwjgl/lwjgl -->
+    <dependency>
+        <groupId>org.lwjgl</groupId>
+        <artifactId>lwjgl</artifactId>
+        <version>3.2.3</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.lwjgl/lwjgl-opengl -->
+    <dependency>
+        <groupId>org.lwjgl</groupId>
+        <artifactId>lwjgl-opengl</artifactId>
+        <version>3.2.3</version>
+    </dependency>
+
+  </dependencies>
+
+  <build></build>
+</project>
