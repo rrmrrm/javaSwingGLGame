@@ -14,7 +14,8 @@ When i first tried to run the project lwjglx library loader threw:
 
 I circumvented this problem the following way:
 
-I created the lwjgl-3.2.3  that contains the linux x64 shared libraries for lwjgl version 3.2.3(downloaded from "https://www.lwjgl.org/browse/release/3.2.3/linux/x64"). Now to run the project we have to tell java to use these libraries. This also means that the project only runs on linux x64 now.
+
+I downloaded the shared libraries of ljwgl version 3.2.3 from "https://www.lwjgl.org/browse/release/3.2.3/linux/x64" into the lwjgl-3.2.3/ path. Now to run the project we have to tell java to use these libraries. This also means that the project only runs on linux x64 now(and the lwjgl cannot be changed from 3.2.3 since the libs i downloaded are specific for that version).
 
 ## To build:
 
